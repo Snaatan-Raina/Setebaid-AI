@@ -17,5 +17,4 @@ for line in result.stdout.splitlines():
         "-v", voice_name,
         f"Hello. This is {voice_name} speakingggg."
     ])
-SS
     time.sleep(0.1)
