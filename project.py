@@ -24,7 +24,7 @@ def takeCommand():
         r.adjust_for_ambient_noise(source, duration=1)
 
         print("Listening...")
-        audio = SSr.listen(source)
+        audio = r.listen(source)
 
     try:
         print("Recognizing...")
@@ -45,3 +45,11 @@ def takeCommand():
 if __name__ == "__main__":
     speak("aur Dhruv bhai kae se ho, Radhe Radhe guru ji")
     query = takeCommand().lower()
+
+if "wikipedia" in query:
+    speak("Searching Wikipedia...")
+    query = query.replace("wikipedia", "")
+    results = wikipedia.summary(query, sentences=2)
+    speak("According to Wikipedia")
+    print(results)
+    speak(results)
