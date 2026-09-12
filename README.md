@@ -2,6 +2,10 @@
 
 reverse diabetes..... literally
 
-rn Im just learning python, and solving questions on coursera, hackerrank and experimenting with the things I learn
+although this repo is named Setebaid-AI but actually im working on a smaller version of it just to familiarize myself with the concepts behind AI chatbots, AI desktop assistants and stufrelated stuff, after I learn the prerequisites for building a RAG system, i will move on to make the main project, Setebaid-AI.
 
-I guess i experimemnted too much , i think it records now, i just want to add some more functions or i can add AI to understan the wrods i say instead of me typing if these specific words are said then do this.
+rn Im just learning python, and solving questions on coursera, hackerrank and experimenting with the things I learn and making small projects
+
+#small project
+
+The talking voice is done, It can hear sound and it can just respond if there are certain keywords used. It actually not an AI, it just responds accroding to the written keywords only those specific words are spoken.
