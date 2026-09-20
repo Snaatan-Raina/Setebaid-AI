@@ -9,3 +9,5 @@ rn Im just learning python, and solving questions on coursera, hackerrank and ex
 #small project
 
 The talking voice is done, I just have to build its hearing system, it can just respond if there are certain keywords used. It actually not an AI, it just responds accroding to the written code only if some specific words are spoken.
+
+just leaning some more python and experimenting, with things i learned today(OOPS)

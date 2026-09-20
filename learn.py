@@ -5,7 +5,7 @@ class Student:
         self.name = name
         self.marks = marks
 
-    def get_avg(self):
+    def get_avg(self): 
         return sum(self.marks) / len(self.marks)
 
 student1 = Student("Alice", [99, 100, 94])

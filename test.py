@@ -4,7 +4,7 @@ import re
 
 # Volume for the assistant's speech only (0.0 = silent, 1.0 = normal).
 # This does NOT touch the Mac's system output volume.
-SPEECH_VOLUME = 0.0
+SPEECH_VOLUME = 0
 
 result = subprocess.run(
     ["say", "-v", "?"],
@@ -29,3 +29,7 @@ for line in result.stdout.splitlines():
         "-v", voice_name,
         f"[[volm {SPEECH_VOLUME}]] Hello. This is {voice_name} speaking."
     ])
+    # Wait a bit before moving on to the next voice
+    time.sleep(1)
+
+
