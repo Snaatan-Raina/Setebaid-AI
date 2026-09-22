@@ -30,6 +30,6 @@ for line in result.stdout.splitlines():
         f"[[volm {SPEECH_VOLUME}]] Hello. This is {voice_name} speaking."
     ])
     # Wait a bit before moving on to the next voice
-    time.sleep(1)
+    time.sleep(0.1)
 
 
